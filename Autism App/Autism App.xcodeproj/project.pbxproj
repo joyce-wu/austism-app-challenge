@@ -16,6 +16,9 @@
 		C005899C1FEEDDA20048968A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C005899A1FEEDDA20048968A /* LaunchScreen.storyboard */; };
 		C00589A71FEEDDA20048968A /* Autism_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00589A61FEEDDA20048968A /* Autism_AppTests.swift */; };
 		C00589B21FEEDDA20048968A /* Autism_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00589B11FEEDDA20048968A /* Autism_AppUITests.swift */; };
+		C07BD9E11FF1E60600866C6A /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07BD9DE1FF1E5C000866C6A /* Charts.framework */; };
+		C07BD9E21FF1E60600866C6A /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C07BD9DE1FF1E5C000866C6A /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C07BD9E71FF1E67C00866C6A /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BD9E61FF1E67C00866C6A /* Charts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +36,42 @@
 			remoteGlobalIDString = C00589891FEEDDA20048968A;
 			remoteInfo = "Autism App";
 		};
+		C07BD9DD1FF1E5C000866C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		C07BD9DF1FF1E5C000866C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		C07BD9E31FF1E60600866C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C07BD9E51FF1E60600866C6A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C07BD9E21FF1E60600866C6A /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C005898A1FEEDDA20048968A /* Autism App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +89,8 @@
 		C00589AD1FEEDDA20048968A /* Autism AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autism AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00589B11FEEDDA20048968A /* Autism_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autism_AppUITests.swift; sourceTree = "<group>"; };
 		C00589B31FEEDDA20048968A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		C07BD9E61FF1E67C00866C6A /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07BD9E11FF1E60600866C6A /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +150,8 @@
 				C00589981FEEDDA20048968A /* Assets.xcassets */,
 				C005899A1FEEDDA20048968A /* LaunchScreen.storyboard */,
 				C005899D1FEEDDA20048968A /* Info.plist */,
+				C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */,
+				C07BD9E61FF1E67C00866C6A /* Charts.swift */,
 			);
 			path = "Autism App";
 			sourceTree = "<group>";
@@ -131,6 +174,15 @@
 			path = "Autism AppUITests";
 			sourceTree = "<group>";
 		};
+		C07BD9D91FF1E5C000866C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07BD9DE1FF1E5C000866C6A /* Charts.framework */,
+				C07BD9E01FF1E5C000866C6A /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,10 +193,12 @@
 				C00589861FEEDDA20048968A /* Sources */,
 				C00589871FEEDDA20048968A /* Frameworks */,
 				C00589881FEEDDA20048968A /* Resources */,
+				C07BD9E51FF1E60600866C6A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C07BD9E41FF1E60600866C6A /* PBXTargetDependency */,
 			);
 			name = "Autism App";
 			productName = "Autism App";
@@ -223,6 +277,12 @@
 			mainGroup = C00589811FEEDDA20048968A;
 			productRefGroup = C005898B1FEEDDA20048968A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C07BD9D91FF1E5C000866C6A /* Products */;
+					ProjectRef = C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C00589891FEEDDA20048968A /* Autism App */,
@@ -231,6 +291,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C07BD9DE1FF1E5C000866C6A /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = C07BD9DD1FF1E5C000866C6A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C07BD9E01FF1E5C000866C6A /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = C07BD9DF1FF1E5C000866C6A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C00589881FEEDDA20048968A /* Resources */ = {
@@ -267,6 +344,7 @@
 				C00589901FEEDDA20048968A /* RootViewController.swift in Sources */,
 				C00589941FEEDDA20048968A /* ModelController.swift in Sources */,
 				C00589921FEEDDA20048968A /* DataViewController.swift in Sources */,
+				C07BD9E71FF1E67C00866C6A /* Charts.swift in Sources */,
 				C005898E1FEEDDA20048968A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +377,11 @@
 			isa = PBXTargetDependency;
 			target = C00589891FEEDDA20048968A /* Autism App */;
 			targetProxy = C00589AE1FEEDDA20048968A /* PBXContainerItemProxy */;
+		};
+		C07BD9E41FF1E60600866C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = C07BD9E31FF1E60600866C6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,6 +515,7 @@
 		C00589B71FEEDDA20048968A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Autism App/Info.plist";
@@ -446,6 +530,7 @@
 		C00589B81FEEDDA20048968A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Autism App/Info.plist";
