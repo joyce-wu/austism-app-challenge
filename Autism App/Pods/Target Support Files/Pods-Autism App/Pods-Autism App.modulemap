@@ -1,0 +1,6 @@
+framework module Pods_Autism_App {
+  umbrella header "Pods-Autism App-umbrella.h"
+
+  export *
+  module * { export * }
+}
