@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B40C81892425DBD78D5A498 /* Pods_Autism_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5EE499BE329977686F35CC /* Pods_Autism_AppTests.framework */; };
+		917DA7ED4F9F0015802D13E1 /* Pods_Autism_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3AD07724332FEE6F245E2A1 /* Pods_Autism_AppUITests.framework */; };
+		B86FB654151B330CAFA708BE /* Pods_Autism_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB9DACB6AE4C2FBBA97A668 /* Pods_Autism_App.framework */; };
 		C005898E1FEEDDA20048968A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005898D1FEEDDA20048968A /* AppDelegate.swift */; };
 		C00589901FEEDDA20048968A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005898F1FEEDDA20048968A /* RootViewController.swift */; };
 		C00589921FEEDDA20048968A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00589911FEEDDA20048968A /* DataViewController.swift */; };
@@ -74,6 +77,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D5EE499BE329977686F35CC /* Pods_Autism_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autism_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D71DF355148D23892F1EAA /* Pods-Autism AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autism AppUITests/Pods-Autism AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		768AA8961331D2ED578672D7 /* Pods-Autism AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autism AppUITests/Pods-Autism AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8467D2F49D023D1F9D46CA70 /* Pods-Autism App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autism App/Pods-Autism App.release.xcconfig"; sourceTree = "<group>"; };
+		A0C16DB62B386C48B7B7FA57 /* Pods-Autism AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autism AppTests/Pods-Autism AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BAB9DACB6AE4C2FBBA97A668 /* Pods_Autism_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autism_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C005898A1FEEDDA20048968A /* Autism App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C005898D1FEEDDA20048968A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C005898F1FEEDDA20048968A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +100,9 @@
 		C00589B31FEEDDA20048968A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 		C07BD9E61FF1E67C00866C6A /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
+		C3411A03D7E522621D82DF27 /* Pods-Autism AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autism AppTests/Pods-Autism AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4020DC53F0799BCAAA7CB38 /* Pods-Autism App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autism App/Pods-Autism App.debug.xcconfig"; sourceTree = "<group>"; };
+		F3AD07724332FEE6F245E2A1 /* Pods_Autism_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autism_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07BD9E11FF1E60600866C6A /* Charts.framework in Frameworks */,
+				B86FB654151B330CAFA708BE /* Pods_Autism_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B40C81892425DBD78D5A498 /* Pods_Autism_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,12 +127,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917DA7ED4F9F0015802D13E1 /* Pods_Autism_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11DF7A5C290C4197FD0BA85C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9DACB6AE4C2FBBA97A668 /* Pods_Autism_App.framework */,
+				1D5EE499BE329977686F35CC /* Pods_Autism_AppTests.framework */,
+				F3AD07724332FEE6F245E2A1 /* Pods_Autism_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C00589811FEEDDA20048968A = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +151,8 @@
 				C00589A51FEEDDA20048968A /* Autism AppTests */,
 				C00589B01FEEDDA20048968A /* Autism AppUITests */,
 				C005898B1FEEDDA20048968A /* Products */,
+				C4833D3B70FBE19DB0F4EEBA /* Pods */,
+				11DF7A5C290C4197FD0BA85C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,6 +210,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C4833D3B70FBE19DB0F4EEBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4020DC53F0799BCAAA7CB38 /* Pods-Autism App.debug.xcconfig */,
+				8467D2F49D023D1F9D46CA70 /* Pods-Autism App.release.xcconfig */,
+				C3411A03D7E522621D82DF27 /* Pods-Autism AppTests.debug.xcconfig */,
+				A0C16DB62B386C48B7B7FA57 /* Pods-Autism AppTests.release.xcconfig */,
+				768AA8961331D2ED578672D7 /* Pods-Autism AppUITests.debug.xcconfig */,
+				72D71DF355148D23892F1EAA /* Pods-Autism AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,10 +230,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C00589B61FEEDDA20048968A /* Build configuration list for PBXNativeTarget "Autism App" */;
 			buildPhases = (
+				9EEB6648567F4407209E4A57 /* [CP] Check Pods Manifest.lock */,
 				C00589861FEEDDA20048968A /* Sources */,
 				C00589871FEEDDA20048968A /* Frameworks */,
 				C00589881FEEDDA20048968A /* Resources */,
 				C07BD9E51FF1E60600866C6A /* Embed Frameworks */,
+				5BAC7D364D369312B99960A2 /* [CP] Embed Pods Frameworks */,
+				732D69640FDD658A0A97E347 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C00589B91FEEDDA20048968A /* Build configuration list for PBXNativeTarget "Autism AppTests" */;
 			buildPhases = (
+				D5A6F83FFC6D8D6733A38C0D /* [CP] Check Pods Manifest.lock */,
 				C005899E1FEEDDA20048968A /* Sources */,
 				C005899F1FEEDDA20048968A /* Frameworks */,
 				C00589A01FEEDDA20048968A /* Resources */,
+				8CFA867AC7BE6BE521375672 /* [CP] Embed Pods Frameworks */,
+				23FEC1CCBD063B9EC7AADFE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C00589BC1FEEDDA20048968A /* Build configuration list for PBXNativeTarget "Autism AppUITests" */;
 			buildPhases = (
+				EAFFBA5EF02DB09AA4DB7D91 /* [CP] Check Pods Manifest.lock */,
 				C00589A91FEEDDA20048968A /* Sources */,
 				C00589AA1FEEDDA20048968A /* Frameworks */,
 				C00589AB1FEEDDA20048968A /* Resources */,
+				5973A08E8C524D3CC6427768 /* [CP] Embed Pods Frameworks */,
+				E82BCCB53058203B8C73FE0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,6 +384,160 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23FEC1CCBD063B9EC7AADFE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism AppTests/Pods-Autism AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5973A08E8C524D3CC6427768 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism AppUITests/Pods-Autism AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BAC7D364D369312B99960A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Autism App/Pods-Autism App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism App/Pods-Autism App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732D69640FDD658A0A97E347 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism App/Pods-Autism App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFA867AC7BE6BE521375672 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism AppTests/Pods-Autism AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EEB6648567F4407209E4A57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Autism App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A6F83FFC6D8D6733A38C0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Autism AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E82BCCB53058203B8C73FE0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism AppUITests/Pods-Autism AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFFBA5EF02DB09AA4DB7D91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Autism AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C00589861FEEDDA20048968A /* Sources */ = {
@@ -514,6 +717,7 @@
 		};
 		C00589B71FEEDDA20048968A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4020DC53F0799BCAAA7CB38 /* Pods-Autism App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -529,6 +733,7 @@
 		};
 		C00589B81FEEDDA20048968A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8467D2F49D023D1F9D46CA70 /* Pods-Autism App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -544,6 +749,7 @@
 		};
 		C00589BA1FEEDDA20048968A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3411A03D7E522621D82DF27 /* Pods-Autism AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,6 +766,7 @@
 		};
 		C00589BB1FEEDDA20048968A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C16DB62B386C48B7B7FA57 /* Pods-Autism AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -576,6 +783,7 @@
 		};
 		C00589BD1FEEDDA20048968A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768AA8961331D2ED578672D7 /* Pods-Autism AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +799,7 @@
 		};
 		C00589BE1FEEDDA20048968A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D71DF355148D23892F1EAA /* Pods-Autism AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
