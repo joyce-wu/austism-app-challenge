@@ -7,69 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B40C81892425DBD78D5A498 /* Pods_Autism_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5EE499BE329977686F35CC /* Pods_Autism_AppTests.framework */; };
-		917DA7ED4F9F0015802D13E1 /* Pods_Autism_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3AD07724332FEE6F245E2A1 /* Pods_Autism_AppUITests.framework */; };
-		B86FB654151B330CAFA708BE /* Pods_Autism_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB9DACB6AE4C2FBBA97A668 /* Pods_Autism_App.framework */; };
-		C005898E1FEEDDA20048968A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005898D1FEEDDA20048968A /* AppDelegate.swift */; };
-		C00589901FEEDDA20048968A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005898F1FEEDDA20048968A /* RootViewController.swift */; };
-		C00589921FEEDDA20048968A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00589911FEEDDA20048968A /* DataViewController.swift */; };
-		C00589941FEEDDA20048968A /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00589931FEEDDA20048968A /* ModelController.swift */; };
-		C00589971FEEDDA20048968A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00589951FEEDDA20048968A /* Main.storyboard */; };
-		C00589991FEEDDA20048968A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00589981FEEDDA20048968A /* Assets.xcassets */; };
-		C005899C1FEEDDA20048968A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C005899A1FEEDDA20048968A /* LaunchScreen.storyboard */; };
-		C00589A71FEEDDA20048968A /* Autism_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00589A61FEEDDA20048968A /* Autism_AppTests.swift */; };
-		C00589B21FEEDDA20048968A /* Autism_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00589B11FEEDDA20048968A /* Autism_AppUITests.swift */; };
-		C07BD9E11FF1E60600866C6A /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07BD9DE1FF1E5C000866C6A /* Charts.framework */; };
-		C07BD9E21FF1E60600866C6A /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C07BD9DE1FF1E5C000866C6A /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C07BD9E71FF1E67C00866C6A /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07BD9E61FF1E67C00866C6A /* Charts.swift */; };
+		C0CE8BEE1FF34C7B00D9591A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE8BED1FF34C7B00D9591A /* AppDelegate.swift */; };
+		C0CE8BF01FF34C7B00D9591A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE8BEF1FF34C7B00D9591A /* ViewController.swift */; };
+		C0CE8BF31FF34C7B00D9591A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CE8BF11FF34C7B00D9591A /* Main.storyboard */; };
+		C0CE8BF51FF34C7B00D9591A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CE8BF41FF34C7B00D9591A /* Assets.xcassets */; };
+		C0CE8BF81FF34C7B00D9591A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CE8BF61FF34C7B00D9591A /* LaunchScreen.storyboard */; };
+		CAAAEDA6295E7333FFD90251 /* Pods_Autism_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEA7D51F8AA1C40E3882DC1 /* Pods_Autism_App.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C00589A31FEEDDA20048968A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C00589821FEEDDA20048968A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C00589891FEEDDA20048968A;
-			remoteInfo = "Autism App";
-		};
-		C00589AE1FEEDDA20048968A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C00589821FEEDDA20048968A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C00589891FEEDDA20048968A;
-			remoteInfo = "Autism App";
-		};
-		C07BD9DD1FF1E5C000866C6A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
-			remoteInfo = Charts;
-		};
-		C07BD9DF1FF1E5C000866C6A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
-			remoteInfo = ChartsTests;
-		};
-		C07BD9E31FF1E60600866C6A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A58A4ED274A941CA248EA921;
-			remoteInfo = Charts;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		C07BD9E51FF1E60600866C6A /* Embed Frameworks */ = {
+		C0E04E8E1FF3505000F364F9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C07BD9E21FF1E60600866C6A /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,245 +29,119 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1D5EE499BE329977686F35CC /* Pods_Autism_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autism_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72D71DF355148D23892F1EAA /* Pods-Autism AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autism AppUITests/Pods-Autism AppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		768AA8961331D2ED578672D7 /* Pods-Autism AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autism AppUITests/Pods-Autism AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8467D2F49D023D1F9D46CA70 /* Pods-Autism App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autism App/Pods-Autism App.release.xcconfig"; sourceTree = "<group>"; };
-		A0C16DB62B386C48B7B7FA57 /* Pods-Autism AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autism AppTests/Pods-Autism AppTests.release.xcconfig"; sourceTree = "<group>"; };
-		BAB9DACB6AE4C2FBBA97A668 /* Pods_Autism_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autism_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C005898A1FEEDDA20048968A /* Autism App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C005898D1FEEDDA20048968A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C005898F1FEEDDA20048968A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		C00589911FEEDDA20048968A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		C00589931FEEDDA20048968A /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		C00589961FEEDDA20048968A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C00589981FEEDDA20048968A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C005899B1FEEDDA20048968A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C005899D1FEEDDA20048968A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C00589A21FEEDDA20048968A /* Autism AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autism AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C00589A61FEEDDA20048968A /* Autism_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autism_AppTests.swift; sourceTree = "<group>"; };
-		C00589A81FEEDDA20048968A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C00589AD1FEEDDA20048968A /* Autism AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autism AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C00589B11FEEDDA20048968A /* Autism_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autism_AppUITests.swift; sourceTree = "<group>"; };
-		C00589B31FEEDDA20048968A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
-		C07BD9E61FF1E67C00866C6A /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
-		C3411A03D7E522621D82DF27 /* Pods-Autism AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autism AppTests/Pods-Autism AppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C4020DC53F0799BCAAA7CB38 /* Pods-Autism App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autism App/Pods-Autism App.debug.xcconfig"; sourceTree = "<group>"; };
-		F3AD07724332FEE6F245E2A1 /* Pods_Autism_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autism_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B44C6E641572C5DC0E8DF69 /* Pods-Autism App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autism App/Pods-Autism App.release.xcconfig"; sourceTree = "<group>"; };
+		AEEA7D51F8AA1C40E3882DC1 /* Pods_Autism_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autism_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B870264A4EA53EE7399676B4 /* Pods-Autism App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autism App/Pods-Autism App.debug.xcconfig"; sourceTree = "<group>"; };
+		C0CE8BEA1FF34C7B00D9591A /* Autism App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CE8BED1FF34C7B00D9591A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0CE8BEF1FF34C7B00D9591A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0CE8BF21FF34C7B00D9591A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0CE8BF41FF34C7B00D9591A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0CE8BF71FF34C7B00D9591A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0CE8BF91FF34C7B00D9591A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C00589871FEEDDA20048968A /* Frameworks */ = {
+		C0CE8BE71FF34C7B00D9591A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C07BD9E11FF1E60600866C6A /* Charts.framework in Frameworks */,
-				B86FB654151B330CAFA708BE /* Pods_Autism_App.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C005899F1FEEDDA20048968A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B40C81892425DBD78D5A498 /* Pods_Autism_AppTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C00589AA1FEEDDA20048968A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				917DA7ED4F9F0015802D13E1 /* Pods_Autism_AppUITests.framework in Frameworks */,
+				CAAAEDA6295E7333FFD90251 /* Pods_Autism_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11DF7A5C290C4197FD0BA85C /* Frameworks */ = {
+		BA618E4A7010DCE335713489 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BAB9DACB6AE4C2FBBA97A668 /* Pods_Autism_App.framework */,
-				1D5EE499BE329977686F35CC /* Pods_Autism_AppTests.framework */,
-				F3AD07724332FEE6F245E2A1 /* Pods_Autism_AppUITests.framework */,
+				B870264A4EA53EE7399676B4 /* Pods-Autism App.debug.xcconfig */,
+				1B44C6E641572C5DC0E8DF69 /* Pods-Autism App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDEDFB230E268B7A32BACE4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA7D51F8AA1C40E3882DC1 /* Pods_Autism_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C00589811FEEDDA20048968A = {
+		C0CE8BE11FF34C7B00D9591A = {
 			isa = PBXGroup;
 			children = (
-				C005898C1FEEDDA20048968A /* Autism App */,
-				C00589A51FEEDDA20048968A /* Autism AppTests */,
-				C00589B01FEEDDA20048968A /* Autism AppUITests */,
-				C005898B1FEEDDA20048968A /* Products */,
-				C4833D3B70FBE19DB0F4EEBA /* Pods */,
-				11DF7A5C290C4197FD0BA85C /* Frameworks */,
+				C0CE8BEC1FF34C7B00D9591A /* Autism App */,
+				C0CE8BEB1FF34C7B00D9591A /* Products */,
+				BA618E4A7010DCE335713489 /* Pods */,
+				BDEDFB230E268B7A32BACE4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C005898B1FEEDDA20048968A /* Products */ = {
+		C0CE8BEB1FF34C7B00D9591A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C005898A1FEEDDA20048968A /* Autism App.app */,
-				C00589A21FEEDDA20048968A /* Autism AppTests.xctest */,
-				C00589AD1FEEDDA20048968A /* Autism AppUITests.xctest */,
+				C0CE8BEA1FF34C7B00D9591A /* Autism App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C005898C1FEEDDA20048968A /* Autism App */ = {
+		C0CE8BEC1FF34C7B00D9591A /* Autism App */ = {
 			isa = PBXGroup;
 			children = (
-				C005898D1FEEDDA20048968A /* AppDelegate.swift */,
-				C005898F1FEEDDA20048968A /* RootViewController.swift */,
-				C00589911FEEDDA20048968A /* DataViewController.swift */,
-				C00589931FEEDDA20048968A /* ModelController.swift */,
-				C00589951FEEDDA20048968A /* Main.storyboard */,
-				C00589981FEEDDA20048968A /* Assets.xcassets */,
-				C005899A1FEEDDA20048968A /* LaunchScreen.storyboard */,
-				C005899D1FEEDDA20048968A /* Info.plist */,
-				C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */,
-				C07BD9E61FF1E67C00866C6A /* Charts.swift */,
+				C0CE8BED1FF34C7B00D9591A /* AppDelegate.swift */,
+				C0CE8BEF1FF34C7B00D9591A /* ViewController.swift */,
+				C0CE8BF11FF34C7B00D9591A /* Main.storyboard */,
+				C0CE8BF41FF34C7B00D9591A /* Assets.xcassets */,
+				C0CE8BF61FF34C7B00D9591A /* LaunchScreen.storyboard */,
+				C0CE8BF91FF34C7B00D9591A /* Info.plist */,
 			);
 			path = "Autism App";
-			sourceTree = "<group>";
-		};
-		C00589A51FEEDDA20048968A /* Autism AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				C00589A61FEEDDA20048968A /* Autism_AppTests.swift */,
-				C00589A81FEEDDA20048968A /* Info.plist */,
-			);
-			path = "Autism AppTests";
-			sourceTree = "<group>";
-		};
-		C00589B01FEEDDA20048968A /* Autism AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C00589B11FEEDDA20048968A /* Autism_AppUITests.swift */,
-				C00589B31FEEDDA20048968A /* Info.plist */,
-			);
-			path = "Autism AppUITests";
-			sourceTree = "<group>";
-		};
-		C07BD9D91FF1E5C000866C6A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C07BD9DE1FF1E5C000866C6A /* Charts.framework */,
-				C07BD9E01FF1E5C000866C6A /* ChartsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C4833D3B70FBE19DB0F4EEBA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C4020DC53F0799BCAAA7CB38 /* Pods-Autism App.debug.xcconfig */,
-				8467D2F49D023D1F9D46CA70 /* Pods-Autism App.release.xcconfig */,
-				C3411A03D7E522621D82DF27 /* Pods-Autism AppTests.debug.xcconfig */,
-				A0C16DB62B386C48B7B7FA57 /* Pods-Autism AppTests.release.xcconfig */,
-				768AA8961331D2ED578672D7 /* Pods-Autism AppUITests.debug.xcconfig */,
-				72D71DF355148D23892F1EAA /* Pods-Autism AppUITests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C00589891FEEDDA20048968A /* Autism App */ = {
+		C0CE8BE91FF34C7B00D9591A /* Autism App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C00589B61FEEDDA20048968A /* Build configuration list for PBXNativeTarget "Autism App" */;
+			buildConfigurationList = C0CE8BFC1FF34C7B00D9591A /* Build configuration list for PBXNativeTarget "Autism App" */;
 			buildPhases = (
-				9EEB6648567F4407209E4A57 /* [CP] Check Pods Manifest.lock */,
-				C00589861FEEDDA20048968A /* Sources */,
-				C00589871FEEDDA20048968A /* Frameworks */,
-				C00589881FEEDDA20048968A /* Resources */,
-				C07BD9E51FF1E60600866C6A /* Embed Frameworks */,
-				5BAC7D364D369312B99960A2 /* [CP] Embed Pods Frameworks */,
-				732D69640FDD658A0A97E347 /* [CP] Copy Pods Resources */,
+				B7203A8FB19D03A023513003 /* [CP] Check Pods Manifest.lock */,
+				C0CE8BE61FF34C7B00D9591A /* Sources */,
+				C0CE8BE71FF34C7B00D9591A /* Frameworks */,
+				C0CE8BE81FF34C7B00D9591A /* Resources */,
+				9A755157A02A28A81729927E /* [CP] Embed Pods Frameworks */,
+				CCF39950067D2858B4537AF5 /* [CP] Copy Pods Resources */,
+				C0E04E8E1FF3505000F364F9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C07BD9E41FF1E60600866C6A /* PBXTargetDependency */,
 			);
 			name = "Autism App";
 			productName = "Autism App";
-			productReference = C005898A1FEEDDA20048968A /* Autism App.app */;
+			productReference = C0CE8BEA1FF34C7B00D9591A /* Autism App.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C00589A11FEEDDA20048968A /* Autism AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C00589B91FEEDDA20048968A /* Build configuration list for PBXNativeTarget "Autism AppTests" */;
-			buildPhases = (
-				D5A6F83FFC6D8D6733A38C0D /* [CP] Check Pods Manifest.lock */,
-				C005899E1FEEDDA20048968A /* Sources */,
-				C005899F1FEEDDA20048968A /* Frameworks */,
-				C00589A01FEEDDA20048968A /* Resources */,
-				8CFA867AC7BE6BE521375672 /* [CP] Embed Pods Frameworks */,
-				23FEC1CCBD063B9EC7AADFE3 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C00589A41FEEDDA20048968A /* PBXTargetDependency */,
-			);
-			name = "Autism AppTests";
-			productName = "Autism AppTests";
-			productReference = C00589A21FEEDDA20048968A /* Autism AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C00589AC1FEEDDA20048968A /* Autism AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C00589BC1FEEDDA20048968A /* Build configuration list for PBXNativeTarget "Autism AppUITests" */;
-			buildPhases = (
-				EAFFBA5EF02DB09AA4DB7D91 /* [CP] Check Pods Manifest.lock */,
-				C00589A91FEEDDA20048968A /* Sources */,
-				C00589AA1FEEDDA20048968A /* Frameworks */,
-				C00589AB1FEEDDA20048968A /* Resources */,
-				5973A08E8C524D3CC6427768 /* [CP] Embed Pods Frameworks */,
-				E82BCCB53058203B8C73FE0D /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C00589AF1FEEDDA20048968A /* PBXTargetDependency */,
-			);
-			name = "Autism AppUITests";
-			productName = "Autism AppUITests";
-			productReference = C00589AD1FEEDDA20048968A /* Autism AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C00589821FEEDDA20048968A /* Project object */ = {
+		C0CE8BE21FF34C7B00D9591A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Grace Cuenca";
 				TargetAttributes = {
-					C00589891FEEDDA20048968A = {
-						CreatedOnToolsVersion = 9.1;
+					C0CE8BE91FF34C7B00D9591A = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					C00589A11FEEDDA20048968A = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C00589891FEEDDA20048968A;
-					};
-					C00589AC1FEEDDA20048968A = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C00589891FEEDDA20048968A;
 					};
 				};
 			};
-			buildConfigurationList = C00589851FEEDDA20048968A /* Build configuration list for PBXProject "Autism App" */;
+			buildConfigurationList = C0CE8BE51FF34C7B00D9591A /* Build configuration list for PBXProject "Autism App" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -323,100 +149,31 @@
 				en,
 				Base,
 			);
-			mainGroup = C00589811FEEDDA20048968A;
-			productRefGroup = C005898B1FEEDDA20048968A /* Products */;
+			mainGroup = C0CE8BE11FF34C7B00D9591A;
+			productRefGroup = C0CE8BEB1FF34C7B00D9591A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = C07BD9D91FF1E5C000866C6A /* Products */;
-					ProjectRef = C07BD9D81FF1E5C000866C6A /* Charts.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				C00589891FEEDDA20048968A /* Autism App */,
-				C00589A11FEEDDA20048968A /* Autism AppTests */,
-				C00589AC1FEEDDA20048968A /* Autism AppUITests */,
+				C0CE8BE91FF34C7B00D9591A /* Autism App */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		C07BD9DE1FF1E5C000866C6A /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = C07BD9DD1FF1E5C000866C6A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C07BD9E01FF1E5C000866C6A /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = C07BD9DF1FF1E5C000866C6A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		C00589881FEEDDA20048968A /* Resources */ = {
+		C0CE8BE81FF34C7B00D9591A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C005899C1FEEDDA20048968A /* LaunchScreen.storyboard in Resources */,
-				C00589991FEEDDA20048968A /* Assets.xcassets in Resources */,
-				C00589971FEEDDA20048968A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C00589A01FEEDDA20048968A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C00589AB1FEEDDA20048968A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C0CE8BF81FF34C7B00D9591A /* LaunchScreen.storyboard in Resources */,
+				C0CE8BF51FF34C7B00D9591A /* Assets.xcassets in Resources */,
+				C0CE8BF31FF34C7B00D9591A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		23FEC1CCBD063B9EC7AADFE3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism AppTests/Pods-Autism AppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5973A08E8C524D3CC6427768 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism AppUITests/Pods-Autism AppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5BAC7D364D369312B99960A2 /* [CP] Embed Pods Frameworks */ = {
+		9A755157A02A28A81729927E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,12 +181,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Autism App/Pods-Autism App-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ChartsRealm/ChartsRealm.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChartsRealm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
@@ -438,37 +197,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism App/Pods-Autism App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		732D69640FDD658A0A97E347 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism App/Pods-Autism App-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8CFA867AC7BE6BE521375672 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism AppTests/Pods-Autism AppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9EEB6648567F4407209E4A57 /* [CP] Check Pods Manifest.lock */ = {
+		B7203A8FB19D03A023513003 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -486,25 +215,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D5A6F83FFC6D8D6733A38C0D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Autism AppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E82BCCB53058203B8C73FE0D /* [CP] Copy Pods Resources */ = {
+		CCF39950067D2858B4537AF5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -516,91 +227,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism AppUITests/Pods-Autism AppUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EAFFBA5EF02DB09AA4DB7D91 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Autism AppUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism App/Pods-Autism App-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C00589861FEEDDA20048968A /* Sources */ = {
+		C0CE8BE61FF34C7B00D9591A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C00589901FEEDDA20048968A /* RootViewController.swift in Sources */,
-				C00589941FEEDDA20048968A /* ModelController.swift in Sources */,
-				C00589921FEEDDA20048968A /* DataViewController.swift in Sources */,
-				C07BD9E71FF1E67C00866C6A /* Charts.swift in Sources */,
-				C005898E1FEEDDA20048968A /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C005899E1FEEDDA20048968A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C00589A71FEEDDA20048968A /* Autism_AppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C00589A91FEEDDA20048968A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C00589B21FEEDDA20048968A /* Autism_AppUITests.swift in Sources */,
+				C0CE8BF01FF34C7B00D9591A /* ViewController.swift in Sources */,
+				C0CE8BEE1FF34C7B00D9591A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		C00589A41FEEDDA20048968A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C00589891FEEDDA20048968A /* Autism App */;
-			targetProxy = C00589A31FEEDDA20048968A /* PBXContainerItemProxy */;
-		};
-		C00589AF1FEEDDA20048968A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C00589891FEEDDA20048968A /* Autism App */;
-			targetProxy = C00589AE1FEEDDA20048968A /* PBXContainerItemProxy */;
-		};
-		C07BD9E41FF1E60600866C6A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Charts;
-			targetProxy = C07BD9E31FF1E60600866C6A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		C00589951FEEDDA20048968A /* Main.storyboard */ = {
+		C0CE8BF11FF34C7B00D9591A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C00589961FEEDDA20048968A /* Base */,
+				C0CE8BF21FF34C7B00D9591A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C005899A1FEEDDA20048968A /* LaunchScreen.storyboard */ = {
+		C0CE8BF61FF34C7B00D9591A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C005899B1FEEDDA20048968A /* Base */,
+				C0CE8BF71FF34C7B00D9591A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -608,7 +264,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C00589B41FEEDDA20048968A /* Debug */ = {
+		C0CE8BFA1FF34C7B00D9591A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -656,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -665,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		C00589B51FEEDDA20048968A /* Release */ = {
+		C0CE8BFB1FF34C7B00D9591A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -707,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -715,11 +371,10 @@
 			};
 			name = Release;
 		};
-		C00589B71FEEDDA20048968A /* Debug */ = {
+		C0CE8BFD1FF34C7B00D9591A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4020DC53F0799BCAAA7CB38 /* Pods-Autism App.debug.xcconfig */;
+			baseConfigurationReference = B870264A4EA53EE7399676B4 /* Pods-Autism App.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Autism App/Info.plist";
@@ -731,11 +386,10 @@
 			};
 			name = Debug;
 		};
-		C00589B81FEEDDA20048968A /* Release */ = {
+		C0CE8BFE1FF34C7B00D9591A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8467D2F49D023D1F9D46CA70 /* Pods-Autism App.release.xcconfig */;
+			baseConfigurationReference = 1B44C6E641572C5DC0E8DF69 /* Pods-Autism App.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Autism App/Info.plist";
@@ -744,115 +398,31 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C00589BA1FEEDDA20048968A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3411A03D7E522621D82DF27 /* Pods-Autism AppTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Autism AppTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Stuy.Autism-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autism App.app/Autism App";
-			};
-			name = Debug;
-		};
-		C00589BB1FEEDDA20048968A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0C16DB62B386C48B7B7FA57 /* Pods-Autism AppTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Autism AppTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Stuy.Autism-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autism App.app/Autism App";
-			};
-			name = Release;
-		};
-		C00589BD1FEEDDA20048968A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 768AA8961331D2ED578672D7 /* Pods-Autism AppUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Autism AppUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Stuy.Autism-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Autism App";
-			};
-			name = Debug;
-		};
-		C00589BE1FEEDDA20048968A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72D71DF355148D23892F1EAA /* Pods-Autism AppUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Autism AppUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Stuy.Autism-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Autism App";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C00589851FEEDDA20048968A /* Build configuration list for PBXProject "Autism App" */ = {
+		C0CE8BE51FF34C7B00D9591A /* Build configuration list for PBXProject "Autism App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C00589B41FEEDDA20048968A /* Debug */,
-				C00589B51FEEDDA20048968A /* Release */,
+				C0CE8BFA1FF34C7B00D9591A /* Debug */,
+				C0CE8BFB1FF34C7B00D9591A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C00589B61FEEDDA20048968A /* Build configuration list for PBXNativeTarget "Autism App" */ = {
+		C0CE8BFC1FF34C7B00D9591A /* Build configuration list for PBXNativeTarget "Autism App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C00589B71FEEDDA20048968A /* Debug */,
-				C00589B81FEEDDA20048968A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C00589B91FEEDDA20048968A /* Build configuration list for PBXNativeTarget "Autism AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C00589BA1FEEDDA20048968A /* Debug */,
-				C00589BB1FEEDDA20048968A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C00589BC1FEEDDA20048968A /* Build configuration list for PBXNativeTarget "Autism AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C00589BD1FEEDDA20048968A /* Debug */,
-				C00589BE1FEEDDA20048968A /* Release */,
+				C0CE8BFD1FF34C7B00D9591A /* Debug */,
+				C0CE8BFE1FF34C7B00D9591A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C00589821FEEDDA20048968A /* Project object */;
+	rootObject = C0CE8BE21FF34C7B00D9591A /* Project object */;
 }

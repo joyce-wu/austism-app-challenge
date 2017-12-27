@@ -6,16 +6,7 @@ target 'Autism App' do
   use_frameworks!
 
   # Pods for Autism App
-  pod ‘Charts/Realm’
-
-  target 'Autism AppTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'Autism AppUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  pod 'Charts'
+  pod 'ChartsRealm'
 
 end
