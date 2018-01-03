@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C074A1A51FFC73BF00B8767F /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074A1A41FFC73BF00B8767F /* MenuBar.swift */; };
+		C074A1A71FFC752500B8767F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C074A1A61FFC752500B8767F /* HomeController.swift */; };
 		C0CE8BEE1FF34C7B00D9591A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE8BED1FF34C7B00D9591A /* AppDelegate.swift */; };
 		C0CE8BF01FF34C7B00D9591A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE8BEF1FF34C7B00D9591A /* ViewController.swift */; };
 		C0CE8BF31FF34C7B00D9591A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CE8BF11FF34C7B00D9591A /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 		1B44C6E641572C5DC0E8DF69 /* Pods-Autism App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autism App/Pods-Autism App.release.xcconfig"; sourceTree = "<group>"; };
 		AEEA7D51F8AA1C40E3882DC1 /* Pods_Autism_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autism_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B870264A4EA53EE7399676B4 /* Pods-Autism App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autism App/Pods-Autism App.debug.xcconfig"; sourceTree = "<group>"; };
+		C074A1A41FFC73BF00B8767F /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		C074A1A61FFC752500B8767F /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		C0CE8BEA1FF34C7B00D9591A /* Autism App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CE8BED1FF34C7B00D9591A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0CE8BEF1FF34C7B00D9591A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				C0CE8BF41FF34C7B00D9591A /* Assets.xcassets */,
 				C0CE8BF61FF34C7B00D9591A /* LaunchScreen.storyboard */,
 				C0CE8BF91FF34C7B00D9591A /* Info.plist */,
+				C074A1A41FFC73BF00B8767F /* MenuBar.swift */,
+				C074A1A61FFC752500B8767F /* HomeController.swift */,
 			);
 			path = "Autism App";
 			sourceTree = "<group>";
@@ -237,8 +243,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C074A1A71FFC752500B8767F /* HomeController.swift in Sources */,
 				C0CE8BF01FF34C7B00D9591A /* ViewController.swift in Sources */,
 				C0CE8BEE1FF34C7B00D9591A /* AppDelegate.swift in Sources */,
+				C074A1A51FFC73BF00B8767F /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

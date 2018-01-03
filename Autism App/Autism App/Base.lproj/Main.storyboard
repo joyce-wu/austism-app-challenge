@@ -1,24 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="aH8-T3-X3e">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <navigationController title="Navigation Controller" id="4cN-cX-lDG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iVm-w4-axh">
+                        <rect key="frame" x="0.0" y="20" width="375" height="80"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AVj-wJ-iK0" kind="relationship" relationship="rootViewController" id="aAK-bK-idJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FPB-u0-ok3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37" y="114"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="I0v-Wo-vdX">
+            <objects>
+                <viewController title="Home" id="AVj-wJ-iK0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fgi-dY-i6Z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XBE-jT-MHI">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <subviews>
+                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXw-47-kZ2">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <color key="barTintColor" red="0.080642424523830414" green="0.079207278788089752" blue="0.80098170042037964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <items>
+                                            <navigationItem id="uVL-bx-Mz3">
+                                                <leftBarButtonItems>
+                                                    <barButtonItem image="settings" id="pJa-4Q-M78"/>
+                                                    <barButtonItem image="share" id="quy-G4-T6L"/>
+                                                </leftBarButtonItems>
+                                                <rightBarButtonItems>
+                                                    <barButtonItem image="calendar" style="plain" id="45j-ky-9ei"/>
+                                                    <barButtonItem image="data_visualization" id="ika-6M-Zd5"/>
+                                                </rightBarButtonItems>
+                                            </navigationItem>
+                                        </items>
+                                    </navigationBar>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v4a-ed-Scq" firstAttribute="bottom" secondItem="XBE-jT-MHI" secondAttribute="bottom" id="Qpt-Of-5Yl"/>
+                            <constraint firstItem="XBE-jT-MHI" firstAttribute="leading" secondItem="v4a-ed-Scq" secondAttribute="leading" id="fiv-rg-dgv"/>
+                            <constraint firstItem="XBE-jT-MHI" firstAttribute="trailing" secondItem="v4a-ed-Scq" secondAttribute="trailing" id="xE6-If-xzl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="v4a-ed-Scq"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Z4k-wA-xUV"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kli-hf-iW8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="857" y="114"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar" width="38" height="40"/>
+        <image name="data_visualization" width="127" height="120"/>
+        <image name="settings" width="26" height="26"/>
+        <image name="share" width="50" height="39"/>
+    </resources>
 </document>
